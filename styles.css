@@ -1,0 +1,8 @@
+canvas{
+	width:100vw;
+	height:100vh;
+	position: fixed;
+	background: black;
+	top:0;
+	left:0;
+}

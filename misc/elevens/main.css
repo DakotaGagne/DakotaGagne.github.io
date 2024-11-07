@@ -1,0 +1,83 @@
+body{
+	background-color: #acaeaf;
+}
+
+h2{
+	text-align: center;
+	color: black;
+	font-size: 60px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-style: double;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#tutbox{
+	border: solid;
+}
+h3{
+	text-align: center;
+	color: black;
+	font-size: 45px;
+	font-weight: 700px;
+	text-decoration: underline;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+#help{
+	margin-left: 20%;
+	font-weight: 650px;
+	font-size: 25px;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#canvas{
+	border: 8px dashed;
+	background-color: green;
+	width: auto;
+	height: auto;
+	margin-top: 20 px;
+	text-align: center;
+}
+.btn{
+	position: relative;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 12px;
+	width: 20vw;
+	height: 60px;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:hover{
+	font-size: 18px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 12px;
+	transform: scale(1.1)
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:active {
+	font-size: 18px;
+	background-color : black;
+	box-shadow: 0 6px #666;
+	transform: translateY(4px);
+}
+.home{
+	left:5vw;
+	position:absolute;
+	width:12vw;
+}
+#deckcnt{
+	font-size: 25px;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-weight: 600px;
+	text-decoration: underline;
+}
+#elevens{
+	padding: 0;
+    margin: auto;
+    display: block;
+}
