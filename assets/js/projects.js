@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'ADD LINK',
             title: 'Pong NN',
             demo: "ADD DEMO",
-            technologies: ['Python', 'Tkinter', 'Neural Networks', 'Genetic Algorithms'],
+            technologies: ['PY', 'TK', 'NN', 'Genetic Alg'],
             description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it.",
             categories: ['featured', 'python']
         },
@@ -51,7 +51,7 @@ let render_projects = (slug) => {
             link: 'ADD LINK',
             title: 'Shooter Game',
             demo: 'ADD DEMO',
-            technologies: ['HTML', 'CSS3', "JS", "AI"],
+            technologies: ['HTML', 'CSS', "JS", "AI"],
             description: "Top Down Shooter Game, featuring ai opponents, scoreboard, skills, and more.",
             categories: ['javascript']
         },
@@ -61,7 +61,7 @@ let render_projects = (slug) => {
             link: 'ADD LINK',
             title: 'Chess JS',
             demo: 'ADD DEMO',
-            technologies: ['Semantic UI', 'CSS3'],
+            technologies: ['HTML', 'CSS', "JS"],
             description: "Chess Game made with JS. Includes an AI to play against",
             categories: ['javascript']
         },
