@@ -1,21 +1,18 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Dakota Gagne
+description: Programmer / Developer
+site_title: "Portfolio - Dakota Gagne"
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
-
+github_username: Stryker69669
+blog_url: None
+email: dakotaevan10@gmail.com
+twitter_username: UNKN
 # absolute or relative
 profile_picture: assets/images/pp.jpg
 
 # Google Analytics ID
-google_analytics: 
+google_analytics:
