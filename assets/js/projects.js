@@ -59,7 +59,7 @@ let render_projects = (slug) => {
         {
             image: 'ADD IMAGE',
             link: 'ADD LINK',
-            title: 'Master Password',
+            title: 'Chess JS',
             demo: 'ADD DEMO',
             technologies: ['Semantic UI', 'CSS3'],
             description: "Chess Game made with JS. Includes an AI to play against",

@@ -343,7 +343,7 @@ img {
 .post-date {
   float: right;
 }
-
+/*
 .blog-item {
   padding: 10px;
   -webkit-transition: all ease-in-out 0.3s;
@@ -362,7 +362,7 @@ img {
   font-size: 16px;
   font-size: 1rem;
   margin: 15px 0 20px;
-}
+}*/
 
 .slightly-smaller-text {
   font-size: 14.4px;
@@ -461,6 +461,10 @@ a {
   grid-gap: 5px;
   grid-row-gap: 10px;
   width: 100%;
+}
+
+.white-text {
+  color: #fff;
 }
 
 .project-technology {
