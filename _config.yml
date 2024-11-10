@@ -1,5 +1,5 @@
 title: Dakota Gagne
-description: Programmer / Developer
+description: Junior Programmer / Developer
 site_title: "Portfolio - Dakota Gagne"
 
 # Build settings
@@ -7,12 +7,12 @@ markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: Stryker69669
+github_username: DakotaGagne
 blog_url: None
 email: dakotaevan10@gmail.com
 twitter_username: UNKN
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/headshot.jpg
 
 # Google Analytics ID
 google_analytics:
