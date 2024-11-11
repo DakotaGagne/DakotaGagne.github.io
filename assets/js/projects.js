@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         },
         {
             image: '/assets/images/TetrisJS.jpg',
-            link: 'http://www.dakotagagne.ca/projects/tetris-js/',
+            link: 'https://github.com/DakotaGagne/Tetris-JS',
             title: 'Tetris JS',
             demo: 'http://www.dakotagagne.ca/projects/tetris-js/',
             technologies: ['HTML', 'JS', "CSS"],
@@ -97,7 +97,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">SEE DEMO</a>` : ''}</p>
                     </article>
 
                                 
