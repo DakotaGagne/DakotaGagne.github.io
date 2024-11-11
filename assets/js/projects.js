@@ -29,10 +29,9 @@ let render_projects = (slug) => {
             categories: ['featured', 'javascript']
         },
         {
-            image: 'ADD IMAGE',
-            link: 'ADD LINK',
+            image: '/assets/images/Pong-NN.jpg',
+            link: 'https://github.com/DakotaGagne/Pong-NN/',
             title: 'Pong NN',
-            demo: "ADD DEMO",
             technologies: ['PY', 'TK', 'NN', 'Genetic Alg'],
             description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it.",
             categories: ['featured', 'python']
@@ -97,7 +96,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">SEE DEMO</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}" style = "color: blue">SEE DEMO</a>` : ''}</p>
                     </article>
  
                                 
