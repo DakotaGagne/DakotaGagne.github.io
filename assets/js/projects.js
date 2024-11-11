@@ -99,7 +99,7 @@ let project_mapper = project => {
         
                         <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">SEE DEMO</a>` : ''}</p>
                     </article>
-
+ 
                                 
                     <div class="card__meta">
                         ${project.technologies.map(tech =>
