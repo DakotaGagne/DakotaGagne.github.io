@@ -20,10 +20,10 @@ let render_projects = (slug) => {
             categories: ['featured', 'python']
         },
         {
-            image: 'ADD IMAGE',
-            link: 'ADD LINK',
-            title: 'Tetris',
-            demo: 'ADD DEMO',
+            image: '/assets/images/TetrisJS.jpg',
+            link: 'http://www.dakotagagne.ca/projects/tetris-js/',
+            title: 'Tetris JS',
+            demo: 'http://www.dakotagagne.ca/projects/tetris-js/',
             technologies: ['HTML', 'JS', "CSS"],
             description: "A Tetris Clone made to be as similar to the original game as possible. Has an option to add custom made shapes to the game.",
             categories: ['featured', 'javascript']
