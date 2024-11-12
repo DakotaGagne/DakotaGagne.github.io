@@ -47,9 +47,9 @@ let render_projects = (slug) => {
         },
         {
             image: 'ADD IMAGE',
-            link: 'ADD LINK',
+            link: 'https://github.com/DakotaGagne/Shooter-JS',
             title: 'Shooter Game',
-            demo: 'ADD DEMO',
+            demo: 'https://dakotagagne.ca/projects/shooter-js/',
             technologies: ['HTML', 'CSS', "JS", "AI"],
             description: "Top Down Shooter Game, featuring ai opponents, scoreboard, skills, and more.",
             categories: ['javascript']
