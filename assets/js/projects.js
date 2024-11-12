@@ -11,12 +11,12 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'ADD IMAGE',
-            link: 'ADD LINK',
+            image: '/assets/images/Solitaire-PY.jpg',
+            link: 'https://github.com/DakotaGagne/Solitaire-PY',
             title: 'Solitaire',
-            demo: 'ADD DEMO',
+            demo: 'https://dakotagagne.itch.io/solitaire',
             technologies: ['Python', 'Pygame'],
-            description: "Solitaire Game made with Pygame. It has a simple GUI and is easy to play. Has Klondike, Spider, and FreeCell.",
+            description: "Solitaire Game made with Pygame. It has a simple GUI and is easy to play. Has Klondike, Spider, and FreeCell. Still a work in progress but has been a great application of my Oop skills, and reusability in code.",
             categories: ['featured', 'python']
         },
         {
@@ -43,25 +43,15 @@ let render_projects = (slug) => {
             demo: 'ADD DEMO',
             technologies: ['Python'],
             description: "Scheduler designed for E Hockey and Fifa Tournaments. Makes the schdules based on a number of factors, including distribution of games, duplicate prevention, and even home and away matches.",
-            categories: ['python']
+            categories: ['featured', 'python']
         },
         {
             image: '/assets/images/Shooter-JS.jpg',
             link: 'https://github.com/DakotaGagne/Shooter-JS',
             title: 'Shooter Game',
-            demo: 'https://dakotagagne.ca/projects/shooter-js/',
+            demo: 'https://www.dakotagagne.ca/projects/shooter-js/',
             technologies: ['HTML', 'CSS', "JS", "AI"],
             description: "Top Down Shooter Game, featuring ai opponents, scoreboard, skills, and more.",
-            categories: ['javascript']
-        },
-        
-        {
-            image: 'ADD IMAGE',
-            link: 'ADD LINK',
-            title: 'Chess JS',
-            demo: 'ADD DEMO',
-            technologies: ['HTML', 'CSS', "JS"],
-            description: "Chess Game made with JS. Includes an AI to play against",
             categories: ['javascript']
         },
     ]
