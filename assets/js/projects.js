@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'Solitaire',
             demo: 'https://dakotagagne.itch.io/solitaire',
             technologies: ['Python', 'Pygame'],
-            description: "Solitaire Game made with Pygame. It has a simple GUI and is easy to play. Has Klondike, Spider, and FreeCell. Still a work in progress but has been a great application of my Oop skills, and reusability in code.",
+            description: "Solitaire Game made with Pygame. It has a simple GUI and is easy to play. Has Klondike, Spider, and FreeCell. Still a work in progress but has been a great application of my Oop skills, and reusability in code. Demo is available but better played downloading from Github",
             categories: ['featured', 'python']
         },
         {
