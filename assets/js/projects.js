@@ -46,7 +46,7 @@ let render_projects = (slug) => {
             categories: ['python']
         },
         {
-            image: 'ADD IMAGE',
+            image: '/assets/images/Shooter-JS.jpg',
             link: 'https://github.com/DakotaGagne/Shooter-JS',
             title: 'Shooter Game',
             demo: 'https://dakotagagne.ca/projects/shooter-js/',
