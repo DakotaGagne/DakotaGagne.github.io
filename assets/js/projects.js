@@ -33,9 +33,9 @@ let render_projects = (slug) => {
             link: 'https://github.com/DakotaGagne/Pong-NN/',
             title: 'Pong NN',
             technologies: ['PY', 'TK', 'NN', 'Genetic Alg'],
-            description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it.",
+            description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it. No Demo Available",
             categories: ['featured', 'python']
-        },
+        },  
         {
             image: 'ADD IMAGE',
             link: 'ADD LINK',
