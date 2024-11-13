@@ -71,9 +71,9 @@ let project_mapper = project => {
     let demo_link = ''
     if (project.demo) {
         demo_link = `<a href="${project.demo}" style = "color: blue">SEE DEMO</a>`
-    } elif (project.example) {
+    } else if (project.example) {
         demo_link = `<a href="${project.example}" style = "color: blue">SEE EXAMPLE</a>`
-    } elif (project.video) {
+    } else if (project.video) {
         demo_link = `<a href="${project.video}" style = "color: blue">SEE VIDEO</a>`
     }
     return `
