@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: '/assets/images/Solitaire-PY.jpg',
             link: 'https://github.com/DakotaGagne/Solitaire-PY',
-            title: 'Solitaire',
+            title: 'Solitaire Game',
             demo: 'https://dakotagagne.itch.io/solitaire',
             technologies: ['Python', 'Pygame'],
             description: "Solitaire Game made with Pygame. It has a simple GUI and is easy to play. Has Klondike, Spider, and FreeCell. Still a work in progress but has been a great application of my Oop skills, and reusability in code. Demo is available but better played downloading from Github",
@@ -22,7 +22,7 @@ let render_projects = (slug) => {
         {
             image: '/assets/images/TetrisJS.jpg',
             link: 'https://github.com/DakotaGagne/Tetris-JS',
-            title: 'Tetris JS',
+            title: 'Tetris Game',
             demo: 'http://www.dakotagagne.ca/projects/tetris-js/',
             technologies: ['HTML', 'JS', "CSS"],
             description: "A Tetris Clone made to be as similar to the original game as possible. Has an option to add custom made shapes to the game.",
@@ -33,16 +33,15 @@ let render_projects = (slug) => {
             link: 'https://github.com/DakotaGagne/Pong-NN/',
             title: 'Pong NN',
             technologies: ['PY', 'TK', 'NN', 'Genetic Alg'],
-            description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it. No Demo Available",
+            description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it. No Demo Available.",
             categories: ['featured', 'python']
         },  
         {
-            image: 'ADD IMAGE',
+            image: '/assets/images/ESportsScheduler-PY.jpg',
             link: 'ADD LINK',
             title: 'E Sports Scheduler',
-            demo: 'ADD DEMO',
             technologies: ['Python'],
-            description: "Scheduler designed for E Hockey and Fifa Tournaments. Makes the schdules based on a number of factors, including distribution of games, duplicate prevention, and even home and away matches.",
+            description: "Scheduler designed for E Hockey and Fifa Tournaments. Makes the schdules based on a number of factors, including distribution of games, duplicate prevention, and even home and away matches. No Demo Available.",
             categories: ['featured', 'python']
         },
         {
