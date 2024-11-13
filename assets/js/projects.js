@@ -32,16 +32,18 @@ let render_projects = (slug) => {
             image: '/assets/images/Pong-NN.jpg',
             link: 'https://github.com/DakotaGagne/Pong-NN/',
             title: 'Pong NN',
+            video: '/assets/other/Pong.mp4',
             technologies: ['PY', 'TK', 'NN', 'Genetic Alg'],
             description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it. No Demo Available.",
             categories: ['featured', 'python']
         },  
         {
             image: '/assets/images/ESportsScheduler-PY.jpg',
-            link: 'ADD LINK',
+            link: 'https://github.com/DakotaGagne/Esports-Scheduler-Py',
             title: 'E Sports Scheduler',
+            example: 'https://www.dakotagagne.ca/assets/other/Reg_Season_Schedule.csv',
             technologies: ['Python'],
-            description: "Scheduler designed for E Hockey and Fifa Tournaments. Makes the schdules based on a number of factors, including distribution of games, duplicate prevention, and even home and away matches. No Demo Available.",
+            description: "Scheduler designed for E Hockey and Fifa Tournaments. Makes the schedules based on a number of factors, including distribution of games, duplicate prevention, and even home and away matches. No Demo Available.",
             categories: ['featured', 'python']
         },
         {
@@ -66,6 +68,14 @@ let render_projects = (slug) => {
 }
 
 let project_mapper = project => {
+    let demo_link = ''
+    if (project.demo) {
+        demo_link = `<a href="${project.demo}" style = "color: blue">SEE DEMO</a>`
+    } elif (project.example) {
+        demo_link = `<a href="${project.example}" style = "color: blue">SEE EXAMPLE</a>`
+    } elif (project.video) {
+        demo_link = `<a href="${project.video}" style = "color: blue">SEE VIDEO</a>`
+    }
     return `
         <div class="wrapper">
                 
@@ -85,7 +95,8 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}" style = "color: blue">SEE DEMO</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description}</p>
+                        <p class="paragraph-text-normal">${demo_link}</p>
                     </article>
  
                                 
