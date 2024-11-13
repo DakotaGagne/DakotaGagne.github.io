@@ -70,7 +70,7 @@ let render_projects = (slug) => {
 let project_mapper = project => {
     let demo_link = ''
     demo_link = project.video ? `<a href="${project.video}" style = "color: blue">SEE VIDEO</a>` : demo_link
-    demo_link = project.example_csv ? `<a href="${project.example}" style = "color: blue">DOWNLOAD EXAMPLE CSV</a>` : demo_link
+    demo_link = project.example_csv ? `<a href="${project.example_csv}" style = "color: blue">DOWNLOAD EXAMPLE CSV</a>` : demo_link
     demo_link = project.demo ? `<a href="${project.demo}" style = "color: blue">SEE DEMO</a>` : demo_link
     return `
         <div class="wrapper">
