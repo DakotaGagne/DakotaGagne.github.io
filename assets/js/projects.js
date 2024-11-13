@@ -91,8 +91,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description}</p>
-                        <p class="paragraph-text-normal">${demo_link}</p>
+                        <p class="paragraph-text-normal">${project.description} ${demo_link}</p>
                     </article>
  
                                 
