@@ -41,7 +41,7 @@ let render_projects = (slug) => {
             image: '/assets/images/ESportsScheduler-PY.jpg',
             link: 'https://github.com/DakotaGagne/Esports-Scheduler-Py',
             title: 'E Sports Scheduler',
-            example: 'https://www.dakotagagne.ca/assets/other/Reg_Season_Schedule.csv',
+            example_csv: 'https://www.dakotagagne.ca/assets/other/Reg_Season_Schedule.csv',
             technologies: ['Python'],
             description: "Scheduler designed for E Hockey and Fifa Tournaments. Makes the schedules based on a number of factors, including distribution of games, duplicate prevention, and even home and away matches. No Demo Available.",
             categories: ['featured', 'python']
@@ -70,7 +70,7 @@ let render_projects = (slug) => {
 let project_mapper = project => {
     let demo_link = ''
     demo_link = project.video ? `<a href="${project.video}" style = "color: blue">SEE VIDEO</a>` : demo_link
-    demo_link = project.example ? `<a href="${project.example}" style = "color: blue">SEE EXAMPLE</a>` : demo_link
+    demo_link = project.example_csv ? `<a href="${project.example}" style = "color: blue">DOWNLOAD EXAMPLE CSV</a>` : demo_link
     demo_link = project.demo ? `<a href="${project.demo}" style = "color: blue">SEE DEMO</a>` : demo_link
     return `
         <div class="wrapper">
