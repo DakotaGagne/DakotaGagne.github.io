@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://www.blogtech-v1.glitch.me/',
             technologies: ["Node", "Express", "EJS", "Bootstrap", 'HTML', 'CSS', "JS"],
             description: "Multi page dynamic blog site made with Node and Express. Will dynamically load the most recent posts in order, and can filter by category. Features ability to create new posts, and have them update the blog pages.",
-            categories: ['javascript']
+            categories: ['javascript', 'featured']
         },
         {
             image: '/assets/images/Solitaire-PY.jpg',
@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             video: '/assets/other/Pong.mp4',
             technologies: ['PY', 'TK', 'NN', 'Genetic Alg'],
             description: "Neural Network made to be trained to play Pong. Uses Genetic Algorithms to train the Neural Network. Has one program to train the NN, and another to play against it. Video available for demonstration of training process.",
-            categories: ['featured', 'python']
+            categories: ['python']
         },  
         {
             image: '/assets/images/ESportsScheduler-PY.jpg',
