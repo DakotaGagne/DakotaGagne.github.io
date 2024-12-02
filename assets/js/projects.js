@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: '/assets/images/Blogtech-Node.jpg',
+            link: 'https://github.com/DakotaGagne/Blogtech',
+            title: 'Blog Website',
+            demo: 'https://www.blogtech-v1.glitch.me/',
+            technologies: ["Node", "Express", "EJS", "Bootstrap", 'HTML', 'CSS', "JS"],
+            description: "Multi page dynamic blog site made with Node and Express. Will dynamically load the most recent posts in order, and can filter by category. Features ability to create new posts, and have them update the blog pages.",
+            categories: ['javascript']
+        },
+        {
             image: '/assets/images/Solitaire-PY.jpg',
             link: 'https://github.com/DakotaGagne/Solitaire-PY',
             title: 'Solitaire Game',
@@ -55,6 +64,7 @@ let render_projects = (slug) => {
             description: "Top Down Shooter Game, featuring AI opponents, scoreboard, skills, and more. Full game available as demo.",
             categories: ['javascript']
         },
+        
     ]
 
     let projects = [];
