@@ -11,11 +11,20 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: '/assets/images/Ratingly-React.png',
+            link: 'https://github.com/DakotaGagne/Rating_Project_React',
+            title: 'Ratingly PERN Project',
+            demo: 'https://ratingly.onrender.com/#/',
+            technologies: ["React", "Express", "Postgres", "Node", "Bootstrap"],
+            description: "This project is a social media application built with React, Postgres, and ExpressJS, where users can create, edit, delete, and interact with posts about movies and TV shows. The app integrates the TMDB API to fetch media details like synopses and posters. The goal was to showcase my skills with these technologies and create a secure login system. The project involved overcoming challenges like client-server, server-db, and server-API communication, as well as addressing issues related to hosting on Render, which required restructuring parts of the app to work with different domains. Moving forward, I plan to implement OAuth sign-in for enhanced security and functionality.",
+            categories: ['javascript', 'featured']
+        },
+        {
             image: '/assets/images/Blogtech-Node.jpg',
             link: 'https://github.com/DakotaGagne/Blogtech',
             title: 'Blog Website',
             demo: 'https://www.blogtech-v1.glitch.me/',
-            technologies: ["Node", "Express", "EJS", "Bootstrap", 'HTML', 'CSS', "JS"],
+            technologies: ["Node", "Express", "EJS", "Bootstrap"],
             description: "Multi page dynamic blog site made with Node and Express. Will dynamically load the most recent posts in order, and can filter by category. Features ability to create new posts, and have them update the blog pages.",
             categories: ['javascript', 'featured']
         },
@@ -26,7 +35,7 @@ let render_projects = (slug) => {
             demo: 'https://dakotagagne.itch.io/solitaire',
             technologies: ['Python', 'Pygame'],
             description: "Solitaire Game made with Pygame. It has a simple GUI and is easy to play. Has Klondike, Spider, and FreeCell. Still a work in progress but has been a great application of my OOP skills, and reusability in code. Demo is available but better played downloading from Github",
-            categories: ['featured', 'python']
+            categories: ['python']
         },
         {
             image: '/assets/images/TetrisJS.jpg',
