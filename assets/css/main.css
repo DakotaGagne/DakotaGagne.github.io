@@ -139,6 +139,12 @@ img {
   grid-gap: 20px;
 }
 
+.skills-text {
+  color:white;
+  font-size: 20.8px;
+  margin-top: 8px;
+}
+
 .technical-skills {
   width: 90%;
   margin: 0 auto;
